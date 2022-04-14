@@ -13,7 +13,7 @@ menu.addEventListener("click",()=>{
     setTimeout(()=>{
         menu.innerHTML=`
        
-        <a href="#" class="menu link sidelist">menu</a>
+        <a href="#" class="menu link sidelist">Menu</a>
         <br>
         <a href="index.html" class="link sidelist">Home</a>
         <br>
@@ -22,7 +22,7 @@ menu.addEventListener("click",()=>{
         <a href=mailto:filocle4444@gmail.com class="link sidelist">Contact</a>
         `
         document.querySelector("body").addEventListener("click",()=>{
-            menu.innerHTML=`<a href="#" class="menu link">menu</a>`
+            menu.innerHTML=`<a href="#" class="menu link">Menu</a>`
             first.style.animation="firstreverse 1s forwards"
             second.style.animation="secondreverse 1s forwards"
             third.style.animation="thirdreverse 1s forwards"
@@ -37,4 +37,3 @@ menu.addEventListener("click",()=>{
     
     })
 })
-
