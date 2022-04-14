@@ -65,6 +65,7 @@ header{
 }
 .menu{
     left:5px;
+    height:24px;
 }
 .sidelist{
     text-align: left;
@@ -119,5 +120,3 @@ header{
         left:260px;
     }
 }
-
-
