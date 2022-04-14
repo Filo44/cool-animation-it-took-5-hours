@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+body{
+    background-color:#f7b05b;
+    font-family: 'RocknRoll One', sans-serif;
+    color:#cc5803;
+}
+section{
+    background:#ffc15e;
+    outline:dashed white thick;
+    margin-top:30px;
+    margin-bottom:30px;
+    min-height:200px;
+}
+li{
+    padding-bottom:15px;
+    display:inline-block;
+    background: #f7934c;
+    width:5em;
+    text-align:center;
+    color:#FFF;
+    position:absolute;
+}
+header div{
+    color:#FFF;
+    text-align:center;
+    font-size:1.5em;
+    font-style:fantasy;
+}
+footer{
+    padding:20px;
+    text-align:center;
+    background:grey;
+}
+img{
+    max-width:150px;
+    float:right;
+}
+header{
+    position:sticky;
+    top:3px;
+    left:3px;
+    background:#cc5803;
+}
+.link{
+    text-decoration:none;
+    color:#FFF;
+}
+.plc{
+    position: relative;
+    top:-200px;
+    left:-100px;
+}
+header{
+    height:89.5px;
+}
+
+.first{
+    left:90px;
+}
+.second{
+    left:175px;
+}
+.third{
+    left: 260px;
+}
+.menu{
+    left:5px;
+}
+.sidelist{
+    text-align: left;
+    line-height:20px;
+}
+
+@keyframes slidingmenu {
+    0%{
+    position:absolute;
+    }
+    100%{
+        height:90px;
+        width:200px;
+    }
+}
+@keyframes first {
+    100%{
+        left:210px;
+    }   
+}
+
+@keyframes second {
+    100%{
+        left:295px;
+    }   
+}
+@keyframes third {
+    100%{
+        left:380px;
+    }   
+}
+
+@keyframes slidingmenureverse{
+    100%{
+        left:100px;
+        position:absolute;
+        width:20px;
+    }
+}
+@keyframes firstreverse{
+    100%{
+        left: 90px;
+    }
+}
+@keyframes secondreverse{
+    100%{
+        left:175px;
+    }
+}
+@keyframes thirdreverse{
+    100%{
+        left:260px;
+    }
+}
+
+
